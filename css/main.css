@@ -1,0 +1,259 @@
+
+
+/********************************
+    GENERAL
+*********************************/
+
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+/********************************
+    HEADING 
+********************************/
+
+
+header {
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 1005;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  }
+
+
+/**********************************
+    COLORS
+**********************************/
+
+
+body {
+  background-color: #cbcbae;
+  color: #ff;
+}
+
+  /**green header**/
+  
+header {
+  background: #6ab476;
+  border-color: #599a68;
+} 
+  
+  /**nav background on mobile**/
+ 
+nav {
+ background: #599a68; 
+}
+
+  
+  /**logo text**/
+  /****evidently when RGB is not fully
+  displayed default color is black?? i like it!!**//
+
+
+h1, h2{
+color: #ff;
+}
+
+h3 {
+  color: #ff;
+}
+   
+a {
+  color: #ff;
+  }
+  
+ 
+  /***********************************
+    SELECTED NAV LINK pseudo class
+**************************************/
+
+
+nav a, nav a:visited {
+  color: #ff;
+}
+nav a.selected, nav a:hover{
+  color: #32673f;
+}
+
+h3 {
+  margin: 0 0 1em o;
+}
+  
+h1 {
+  text-align: center;
+  margin: 15px o;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+  }
+
+h2 {
+  text-align: center;
+  font-size: .75em;
+  margin: 15px;
+  font-size: 1.25em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+/**********************************
+    NAVAGATION
+**********************************/
+
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800px;
+  padding: 15px 10px;  
+  
+}
+  
+  /********************************
+      FOOTER
+  ********************************/
+
+
+Footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #212534;
+}
+
+/**ran out of time for social links
+to be put in after asignment end date**/
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/**********************************
+    Portfolio PAGE
+**********************************/
+
+
+/*gallery of photos 
+removed for now-- however
+gallery styling being used for
+project placeholders for now */
+
+#gallery {
+  margin: 0;
+  padding: 10%;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #3180d0;
+}
+
+
+div a, div a visited {
+  color: #2f2fcb;
+}
+div a.selected, div a:hover {
+  color: #85cbe2;
+}
+
+
+/**********************************
+    RESUME PAGE
+**********************************/
+
+/********************************
+  work out spacing for Resume
+this needs to be done next!!!!
+************************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 25px;
+  border-radius: 20%;
+}
+
+#wrapper h3 {
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+/*#wrapper h4 {*/
+/*  padding-top:;*/
+/*  padding-bottom: ;}*/
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30;
+  margin: 0 0 10px;
+}
+  
+.contact-info li.phone a {
+  background-image: url('../img/phone.png';
+}    
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png';
+}
+
+
+
